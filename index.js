@@ -110,7 +110,6 @@ Array.from(seeProject).forEach((element) => {
   element.addEventListener('click', displayPopup);
 });
 
-const closeIcon = document.querySelector('.close');
 
 function closePoup() {
   popup.style.display = 'none';
@@ -118,6 +117,7 @@ function closePoup() {
 }
 
 closeIcon.addEventListener('click', closePoup);
+const closeIcon = document.querySelector('.close');
 
 const form = document.querySelector('.form-inputs');
 const formInput2 = document.getElementsByClassName('email')[0];
